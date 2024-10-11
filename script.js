@@ -17,13 +17,10 @@ if(weightvalue === "" && heightvalue === "")
  
  var output = (document.getElementById("output"));
  output.innerHTML  = BMIOutput;
+  
 
-
- if(output < 18.5) {
-    output.value += "underweight";
-  var result = document.createElement("h6");
-     result.value = "underweight";
-     console.log(result);
+ if(BMIOutput < 18.5) {
+    output.value = "underweight" + BMIOutput;
  }
  else if(output < 24.9 && output >= 18.5) {
      output.value = "  normal " + output;

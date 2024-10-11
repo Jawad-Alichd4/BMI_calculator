@@ -1,0 +1,16 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#MainDiv{
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px;
+    width: 300px;
+    height: 300px;
+
+}

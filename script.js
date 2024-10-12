@@ -25,13 +25,13 @@ if(weightvalue === "" && heightvalue === "")
     output.innerHTML = "underweight :" + BMIOutput;
  }
  else if(BMIOutput < 24.9 && output >= 18.5) {
-     output.innerHTML = "  normal : " + output;
+     output.innerHTML = "  normal : " + BMIOutput;
  }
  else if(BMIOutput < 29 && output >= 24.9) {
-    output.innerHTML = "overwieght :" + output;
+    output.innerHTML = "overwieght :" + BMIOutput;
  }
   else if(BMIOutput > 29 ) {
-     output.innerHTML = "Obesity :" + output;
+     output.innerHTML = "Obesity :" + BMIOutput;
   }
  
 }
